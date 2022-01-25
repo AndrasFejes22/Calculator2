@@ -80,21 +80,7 @@ public class HelloController implements Initializable {
 
 
 
-    /*
-    public static void clearDisplay(Label proc, Label ans) {
-        boolean bool = false;
-        for (int j = 0; j < proc.getText().length(); j++) {
 
-            if (proc.getText().charAt(j) == '=') {
-                bool = true;
-            }
-        }
-        if(bool) {
-            proc.setText("");
-            ans.setText("");
-        }
-    }
-     */
     //@FXML
     public void click_Btn1(ActionEvent actionEvent) {
         Operations.click_NumberButtons(Btn1, setProcessLabel());
