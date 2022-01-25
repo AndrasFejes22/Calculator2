@@ -283,27 +283,7 @@ public class HelloController implements Initializable {
         //boolean bool = true;
 
         System.out.println("str_click_Answer :" + str);
-        /*
-        int k = 0, n = 0;
-        for (int i = 0; i < str.length(); i++) {
 
-            if (str.charAt(i) == '/') {
-                k = i;
-
-            }
-        }
-
-        for (int j = 0; j < str.length(); j++) {
-            if (str.charAt(j) == '0') {
-
-                n = j;
-            }
-        }
-        if (n > k) {
-            answerLabel.setFont(Font.font(15.0));
-            answerLabel.setText("Error: division by zero.");
-        }
-        */
 
         for(int i = 0; i < str.length(); i++) {
 
