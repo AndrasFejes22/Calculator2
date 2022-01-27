@@ -17,7 +17,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         System.out.println("START_main");
         Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
-        //FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));//ezek is jók
+        //FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));//this is also good
         //Scene scene = new Scene(fxmlLoader.load());
         Scene scene = new Scene(root);
 
