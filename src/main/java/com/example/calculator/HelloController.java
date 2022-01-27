@@ -153,7 +153,7 @@ public class HelloController implements Initializable {
 
     }
 
-    //a számok ELŐŐT legyen space* az HÜLYESÉG mert pl. 11 helyett 1 1 lesz...
+    
 
 
 
@@ -271,7 +271,7 @@ public class HelloController implements Initializable {
 
     }
 
-    //2*3+6 és tsai még nem megoldott
+    
     //@FXML
     public String click_Answer() {
         bool_ans = true;
@@ -547,7 +547,7 @@ public class HelloController implements Initializable {
     }
 
     public void percent() {
-        if(Operations.checkProcessLabel(processLabel)) {//ha pl ilyen kinn van hogy 6 + akkor a % gombot ne lehessen lenyomni/plusminus?
+        if(Operations.checkProcessLabel(processLabel)) {
             System.out.println("percent_if :" + (Operations.checkProcessLabel(processLabel)));
             System.out.println("percent_if2 :" + (Operations.checkDisplay(processLabel)));
             bool_percent = true;
@@ -557,7 +557,7 @@ public class HelloController implements Initializable {
         }
     }
 
-    public void click_AMultipleA() {//3 a négyzeten egyenlő valami, és utána hozzáadunk valamit nemjó a nyitvahagyott booleanok miatt
+    public void click_AMultipleA() {
         if(Operations.checkProcessLabel(processLabel)) {
             bool_AMultipleA = true;
             String str = setProcessLabel().getText();
